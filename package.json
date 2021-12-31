@@ -1,0 +1,24 @@
+{
+  "name": "katbox-webiste",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "eleventy --serve",
+    "build": "eleventy"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JayTee3/KatBox-webiste.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JayTee3/KatBox-webiste/issues"
+  },
+  "homepage": "https://github.com/JayTee3/KatBox-webiste#readme",
+  "devDependencies": {
+    "@11ty/eleventy": "^0.12.1"
+  }
+}

@@ -1,0 +1,45 @@
+body::before{
+    display: block;
+    content: "";
+    height: 60px;
+}
+
+.input-feild{
+    width:80%;
+}
+
+.p-size {
+    width: 300px;
+    margin-left: 6rem;
+}
+
+.fitted{
+    margin-bottom: 5rem;
+}
+
+.lower{
+    margin-bottom: 12rem;
+}
+
+.pic {
+    height: 160px;
+    width: 302px;
+  }
+
+.pic-li {
+    height: 150px;
+    width: 150px;
+  }
+
+
+@media (min-width:768px){
+.news-input{
+    width:50%;
+    }
+}
+
+@media (max-width:850px){
+.p-size{
+    margin-left: 0;
+    }
+}

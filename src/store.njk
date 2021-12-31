@@ -1,0 +1,33 @@
+--- 
+title: Business
+layout: 'base.njk'
+---
+
+
+<div class="container">
+
+    {%- for business in collections.business -%}
+     <!-- Start -->
+     <div class="shadow-sm p-3 mb-5 bg-light rounded mt-5">
+        <div class=" d-sm-flex align-items-center justify-content-between">  
+            <article class="media content-section">
+                <img class="pic-li" src="{{ business.data.logo }}" alt="{{ imgAlt }}">
+                <div class="media-body">
+                    <div class="article-metadata">
+                            <h2><a class="mr-2" href="{{ business.url }}">{{ business.data.name }}</a></h2>
+                            <p class="text-muted mb-0"> Telephone Contact: {{ business.data.contact}}</p>
+                            <p class="text-muted mb-0">Store Hours: {{ business.data.hours }}</p>
+                            <p class="text-muted">Email: {{ business.data.email }}</p>
+                    </div>
+                </div>
+            </article>
+       </div>
+    </div>
+    {%- endfor -%}
+</div>
+<div class="fitted lower"></div>
+<!-- end of card  -->
+
+    
+   
+    

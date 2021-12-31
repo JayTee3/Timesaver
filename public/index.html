@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Timersaver</title>
+    <link rel="stylesheet" href="/style.css">
+    <link  href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+    rel="stylesheet"
+    integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+    crossorigin="anonymous"
+    />
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+</head>
+<body>
+    <main>
+        <nav class="navbar navbar-expand-lg bg-dark navbar-dark fixed-top">
+    <div class="container">
+        <a href="/" class="navbar-brand py-3"> <b>Timer Saver</b></a>
+
+        <button class="navbar-toggler" 
+        type="button" 
+        data-bs-toggle="collapse" 
+        data-bs-target="#navmenu">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navmenu">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item">
+                    <a href="" data-bs-toggle="modal" data-bs-target="#enroll" class="nav-link text-light">Register</a>
+                </li>
+                <li class="nav-item">
+                    <a href="/store" class="nav-link text-light">Stores</a>
+                </li>
+            </ul>
+        </div>
+    </div>   
+</nav>
+
+        
+<body>
+    <!-- showcase area  -->
+        <section class="text-light bg-dark p-5 p-lg-0 pt-lg-5 text-center text-sm-start">
+            <div class="container">
+               
+                <div class="d-sm-flex align-items-center justify-content-between ">
+                    <div>
+                        <h1> Save Time, <span class="text-warning">Shop Better </span></h1>
+                        <P class="lead my-4"> Design to increase the reach, capacity and influence of businesses. While giving
+                            shoppers the convenience to purchase from their favourite stores.
+                        </P>
+                        <button type="button" class="btn-lg btn-primary" data-bs-toggle="modal" data-bs-target="#enroll">
+                            Start Today
+                          </button>
+                    </div>
+                    <img class="img-fluid w-50 d-none d-sm-block" src="/assets/delived.svg" alt="delivery person">
+                </div>
+            </div>
+        </section>  
+      <!-- Newsletter -->
+      <section class="bg-primary text-light p-5">
+          <div class="container">
+               <form action="POST" data-netlify="true">
+            <div class="d-md-flex justify-content-between align-items-center">
+                  <h3 class="mb-3 mb-md-0"> Sign Up For Our Newsletter</h3>                       
+                     <div class="input-group news-input mb-2">  
+                          <input type="text" class="form-control" placeholder="Enter Email" name="subscriber">    
+                          <button class="btn btn-dark btn-lg" type="button">Subscribe</button>
+                      </div>    
+                  </div>
+                 </form>                                                             
+            </div>
+      </section>
+      <!-- Boxes -->
+      <section class="p-5">
+          <div class="container">
+              <div class="row text-center g-4">
+                  <div class="col-md">
+                      <div class="card bg-dark text-light">
+                          <div class="card-body text-center">
+                            <div class="h1 mb-3">
+                                <i class="bi bi-laptop"></i>
+                            </div>  
+                            <class="h3">
+                              <h3 class="card-title mb-3"> Online </h3>
+                              <p class="card-text">
+                                  Need to find a product or service but do not have the time?
+                                  Shop at your favourite stores, while never leaving home.
+                                  Fast simple Timesaving!
+                              </p>
+                               <a href="#" data-bs-toggle="modal" data-bs-target="#enroll" class="btn btn-primary">Learn More</a>
+                          </div>
+                      </div>
+                  </div>
+                  <div class="col-md">
+                    <div class="card bg-secondary text-light">
+                        <div class="card-body text-center">
+                          <div class="h1 mb-3">
+                              <i class="bi bi-person-square"></i>
+                          </div>  
+                          <class="h3">
+                            <h3 class="card-title mb-3"> Pick-Up </h3>
+                            <p class="card-text">
+                               On the move and need to quickly dash into the store?
+                               Place the order and 
+                               collect the items and there is always delivery!
+                               fast, simple Timesaving.
+                                
+                            </p>
+                             <a href="#" data-bs-toggle="modal" data-bs-target="#enroll" class="btn btn-primary">Learn More</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md"> <div class="card bg-dark text-light">
+                        <div class="card-body text-center">
+                          <div class="h1 mb-3">
+                              <i class="bi bi-people"></i>
+                          </div>  
+                          <class="h3">
+                            <h3 class="card-title mb-3"> Reliable</h3>
+                            <p class="card-text">
+                                Tried of driving all around town looking for a product or service?
+                                Let Timesaver lighten the load. Sign up today and find all your favourite
+                                store instantly.
+                            </p>
+                             <a href="#" data-bs-toggle="modal" data-bs-target="#enroll" class="btn btn-primary">Learn More</a>
+                  </div>
+              </div>
+          </div>
+      </section>
+      <!-- Learn Section -->
+      <section class="p-5">
+          <div class="container">
+              <div class="row align-items-center justify-content-between">
+                  <div class="col-md">
+                      <img src="assets/delivery.svg" class="img-fluid" alt="">
+                  </div>
+                  <div class="col-md p-5">
+                      <h2> Be your own boss</h2>
+                      <p class="lead">
+                            Give your business the opportunity, to be a Global Brand.
+                            Register today to start increasing your business margins!  
+
+                        </p>
+                      <p>
+                        Timesavers allows business, start-ups and entrepreneur the opportunity
+                        to increase sales, build stronger community and to connect with a global market.
+                        Driver who register will gain access to stores needing to expand thier offerings through 
+                        delivery.
+                    </p>
+                      <a href="#" data-bs-toggle="modal" data-bs-target="#enroll" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i> Read More
+                      </a>
+                  </div>
+              </div>
+          </div>
+<!-- opposite section  -->
+      </section>
+      <section class="p-5 bg-dark text-light" id="register">
+          <div class="container">
+              <div class="row align-items-center justify-content-between">
+                 <div class="col-md p-5">
+                      <h2> Scale your Business</h2>
+                      <p class="lead">
+                          Set the stage to enable and support growth in your Business.
+                          Take advantage of Timesaver's technology to help your business
+                          make efficient, effective marketing decisions.
+    
+                      </p>
+                      <p>
+                          Collecting online payments, managing inventory and worldwide exposure are some 
+                          of the features built in to assist with scaling your business. In 2020 over 80% consumer 
+                          across the global shopped online. <b> a substantial digital persence can not only increase consumer
+                          awareness, but it can also work to strengthen your brand by building up you credibility.</b>
+                      </p>
+                      <a href="#" data-bs-toggle="modal" data-bs-target="#enroll" class="btn btn-light mt-3">
+                        <i class="bi bi-chevron-right"></i> Read More
+                      </a>
+                  </div>
+                  <div class="col-md">
+                    <img src="assets/packages.svg" class="img-fluid" alt="">
+                </div>
+              </div>
+          </div>    
+      </section>
+      <!-- Question Accordion -->
+      <section class="p-5" id="questions">
+        <div class="container">
+            <h2 class="text-center mb-4">Frequently Asked Questions</h2>
+            <div class="accordion accordion-flush" id="questions">
+                <!-- Item 1 -->
+                <div class="accordion-item">
+                  <h2 class="accordion-header">
+                    <button class="accordion-button collapsed" type="button" 
+                    data-bs-toggle="collapse" data-bs-target="#question-one">
+                      What is Timesaver ?
+                    </button>
+                  </h2>
+                  <div id="question-one" 
+                  class="accordion-collapse collapse" 
+                  data-bs-parent="#accordionFlushExample">
+                <div class="accordion-body">
+                    Timesaver is a internet base enterprise that assist businesses, with 
+                    the selling of products, goods and services. Timersaver acts as a middleman
+                    between retailers and it's users.    
+                </div>
+                  </div>
+                </div>
+                <!-- item 2 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" 
+                      data-bs-toggle="collapse" data-bs-target="#question-two">
+                        How do I connect my business ?
+                      </button>
+                    </h2>
+                    <div id="question-two" 
+                    class="accordion-collapse collapse" 
+                    data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                      Registering a business is a quick and seamless process. During the registration process
+                      you will be asked for your business name, logo, email and banking credentials. 
+                      </div>
+                    </div>
+                  </div> 
+                <!-- item 3 -->
+                <div class="accordion-item">
+                    <h2 class="accordion-header">
+                      <button class="accordion-button collapsed" type="button" 
+                      data-bs-toggle="collapse" data-bs-target="#question-three">
+                        How do I sign up ?
+                      </button>
+                    </h2>
+                    <div id="question-three" 
+                    class="accordion-collapse collapse" 
+                    data-bs-parent="#accordionFlushExample">
+                  <div class="accordion-body">
+                    Users wishing to join the platform can simply sign-up, by creating an account
+                    with an email for verification.    
+                </div>
+                    </div>
+              </div>
+              <!-- item 4 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" 
+                  data-bs-toggle="collapse" data-bs-target="#question-four">
+                    What if I want to register a Business later ?
+                  </button>
+                </h2>
+                <div id="question-four" 
+                class="accordion-collapse collapse" 
+                data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                  Once your account has been created, there will be a register store link within the
+                  navigation bar. Click the link to follow the registration process. Note there are some documentation
+                  needed to complete the process, for this please reference "How do I connect my business?".
+                  </div>
+                </div>
+              </div>
+              <!-- item 5 -->
+              <div class="accordion-item">
+                <h2 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" 
+                  data-bs-toggle="collapse" data-bs-target="#question-five">
+                    How do I share my busines with others ?
+                  </button>
+                </h2>
+                <div id="question-five" 
+                class="accordion-collapse collapse" 
+                data-bs-parent="#accordionFlushExample">
+              <div class="accordion-body">
+                Once your account has been created, you will be able to set up your business perferences
+                once satisfied you will be able to share the link to your business page via your favourite social media
+                outlets, email and SMS messages.  
+                  </div>
+                </div>
+              </div>
+            </div>
+        </div>
+      </section>
+      <!-- Add stores -->
+      <section id="about" class="p-5 bg-primary">
+          <div class="container">
+              <h2 class="text-center text-white">Our Key Features</h2>
+              <p class="lead text-center text-white mb-5">
+                  Timesaver is build with a simple but powerful user interface , allowing businesses to 
+                  connect with users within a easy to use navigational system.   
+              </p>
+              <div class="row g-4">
+                  <div class="col-md-6 col-lg-3">
+                      <div class="card bg-light">
+                          <div class="card-body text-center">
+                              <img 
+                                src="assets/data.svg" 
+                                class="pic-li mb-3" alt=""
+                              />
+                              <h3 class="card-title mb-3"> Data</h3>
+                              <p class="card-text">
+                                Get access to live data to accurately boost, grow and measure your
+                                business performance.
+                              </p>
+                          </div>
+                      </div>
+                  </div>
+                <!-- second card starts here  -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img 
+                              src="assets/account.svg" 
+                              class="pic-li mb-3" alt=""
+                            />
+                            <h3 class="card-title mb-3"> Accounting</h3>
+                            <p class="card-text">
+                              Calculating and managing accounting records, while providing 
+                              insight of your business.
+                            </p>
+                          </div>
+                    </div>
+                </div>
+            <!-- Third card starts here   -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img 
+                              src="assets/transfer.svg" 
+                              class="pic-li mb-3" alt=""
+                            />
+                            <h3 class="card-title mb-3"> Payment </h3>
+                            <p class="card-text"> 
+                              Sending and receiveing money. Making
+                              the online payments experience seamless and convenient.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <!-- four card starts here  -->
+                <div class="col-md-6 col-lg-3">
+                    <div class="card bg-light">
+                        <div class="card-body text-center">
+                            <img 
+                              src="assets/community.svg" 
+                              class=" pic-li mb-3" alt=""
+                            />
+                            <h3 class="card-title mb-3">  Community </h3>
+                            <p class="card-text"> 
+                              Build a community to interact, with customer,
+                              and entrepreneur. Discover more together!
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            <!-- fourth card ends here -->
+              </div>
+          </div>
+      </section>
+      <section class="p-5">
+          <div class="container">
+              <div class="row g4">
+                  <div class="col-md">
+                      <h2 class="text-center mb-4">
+                          Contact Info
+                      </h2>
+                    <ul class="list-group-flush lead">
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location: </span> Crown Alley 
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Office Number: </span> 1 (242)-471-0910
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Customer Service: </span> 1 (242)-535-9090
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Email: </span> connect@timersaver.com
+                        </li>
+                        <li class="list-group-item">
+                            <span class="fw-bold">Main Location</span> Crown Alley
+                        </li>
+                    </ul>
+                  </div>
+                  <div class="col-md">
+                      <img src="assets/packages.svg" class="img-fluid" alt="">
+                  </div>
+              </div>
+          </div>
+      </section>
+   
+         <!-- Footer -->
+ <footer class="p-5 bg-dark text-white text-center position-relative">
+    <div class="container">
+        <p class="lead">Copyright &copy; 2020 TimerSaver</p>
+        <p>Created and maintain by Kat Custom Design</p>
+        <a href="#" class="position-absolute bottom-0 end-0 p-5 mt-2">
+            <i class="bi bi-arrow-up-circle h1"></i>
+        </a>
+    </div>
+</footer>
+<!-- Modal -->
+<div class="modal fade" id="enroll" tabindex="-1" aria-labelledby="enrollLabel" aria-hidden="true">
+<div class="modal-dialog">
+  <div class="modal-content">
+    <div class="modal-header">
+      <h5 class="modal-title" id="enrollLabel">Registration</h5>
+      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+    </div>
+    <div class="modal-body">
+      <p class="lead">Fill out this form and we will contact you once approved</p>
+      <form action="POST" data-netlify="true">
+          <div class="mb-3">
+              <label for="first-name" class="col-form-label">
+                  First Name:
+              </label>
+              <input type="text" class="form-control" name="first-name" placeholder="Enter First Name">
+          </div>
+          <div class="mb-3">
+              <label for="last-name" class="col-form-label" >
+                  Last Name:
+              </label>
+              <input type="text" class="form-control" name="last-name" placeholder="Enter last Name">
+          </div>
+          <div class="mb-3">
+              <label for="business-name" class="col-form-label">
+                  Business Name:
+              </label>
+              <input type="text" class="form-control" name="business-name" placeholder="Enter Business Name">
+          </div>
+          <div class="mb-3">
+              <label for="email" class="col-form-label">
+                  Email Address:
+              </label>
+              <input type="text" class="form-control" name="email" placeholder="Enter Business Email">
+          </div>
+          <div class="mb-3">
+              <label for="phone" class="col-form-label">
+                  Phone:
+              </label>
+              <input type="text" class="form-control" name="phone" placeholder="Enter Phone Number">
+          </div>
+          <div class="mb-3">
+            <label for="myfile" class="col-form-label">
+                Business Logo:
+            </label>
+            <input type="file" class="form-control" name="myfile" placeholder="Upload Business Logo">
+          <div class="mb-3">
+              <div data-netlify-recaptcha="true"></div>
+          </div>
+        </div>
+      </form>
+    </div>
+    <div class="modal-footer">
+      <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+      <button type="button" class="btn btn-primary">Submit</button>
+    </div>
+  </div>
+</div>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+
+    </main>
+</body>
+</html>
