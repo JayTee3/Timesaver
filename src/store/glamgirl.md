@@ -3,6 +3,7 @@ logo: /assets/glam-logo.jpg
 imgAlt: glam-girl logo
 tag: business
 name: Glam Girl
+modal_n: Glam-Girl
 hours: 7am - 8pm 
 contact: (242)-801-4184
 social: https://www.instagram.com/_glamgirlz/p/CYWW9zYOmG6/?utm_medium=copy_link
@@ -13,9 +14,10 @@ email: Glam.girlz@hotmail.com
 description: "Choose Style And Style Your Life"
 
 
+
 item_1: /assets/tan.jpg
 item_1_cost: $35.00
-item_1_name: Tan Jumpsuit
+item_1_name: Mauve Jumpsuit
 
 item_2: /assets/white-dre.jpg
 item_2_cost: $35.00

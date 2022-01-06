@@ -3,6 +3,7 @@ logo: /assets/sunflower-logo.jpeg
 imgAlt: Sunflower Beauty product logo
 tag: business
 name: Sunflower Beauty
+modal_n: sunflower
 hours: 7am - 8pm 
 contact: (242)-445-2194
 social: https://www.facebook.com/sunflowerbeauty242/
