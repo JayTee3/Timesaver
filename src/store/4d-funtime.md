@@ -33,7 +33,7 @@ item_4_name: Giant Bowling
 
 
 item_5: /assets/boucing.jpg
-item_5_cost: $44.00
+item_5_cost: $45.00
 item_5_name: Kids Bounce House
 
 item_6: /assets/movie.jpg
