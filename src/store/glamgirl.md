@@ -6,8 +6,9 @@ name: Glam Girl
 hours: 7am - 8pm 
 contact: (242)-801-4184
 social: https://www.instagram.com/_glamgirlz/p/CYWW9zYOmG6/?utm_medium=copy_link
-social-icon: bi bi-instagram
-social-name: Instagram
+social_i: bi bi-instagram
+social_n: Instagram
+social_c: btn btn-info
 email: Glam.girlz@hotmail.com
 description: "Choose Style And Style Your Life"
 

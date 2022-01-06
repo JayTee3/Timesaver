@@ -20,7 +20,11 @@ body::before{
 .lower{
     margin-bottom: 12rem;
 }
+.btn-info{
+    background-color: #FFC0CB !important;
+    border-color: #FFC0CB !important
 
+}
 .pic {
     height: 160px;
     width: 302px;

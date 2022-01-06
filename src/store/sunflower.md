@@ -6,8 +6,9 @@ name: Sunflower Beauty
 hours: 7am - 8pm 
 contact: (242)-445-2194
 social: https://www.facebook.com/sunflowerbeauty242/
-social-icon: bi-facebook
-social-name: Facebook 
+social_i: bi bi-facebook
+social_n: Facebook 
+social_c: btn btn-primary
 email: ricara@live.com
 description: Sunflower Beauty is a small business based in Nassau, Bahamas
                         specializing in beauty products, costume and Stainless Steel jewlery as well 
