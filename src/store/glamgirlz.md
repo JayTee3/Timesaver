@@ -2,7 +2,7 @@
 logo: /assets/glam-logo.jpg
 imgAlt: glam-girl logo
 tag: business
-name: Glam Girl
+name: Glamgirlz
 modal_n: Glam-Girl
 hours: 7am - 8pm 
 contact: (242)-801-4184
