@@ -5,7 +5,7 @@ tag: business
 name: 4D Funtime Rental
 modal_n: 4D-funtime
 hours: 7am - 8pm 
-contact: (242)-466-1388/(242)-455-3031
+contact: (242)-455-3031
 social: https://www.whatsapp.com/catalog/12424553031/?app_absent=0
 social_i: bi bi-whatsapp
 social_n: Whatsapp Catalog
