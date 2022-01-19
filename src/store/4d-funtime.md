@@ -13,6 +13,7 @@ social_c: btn btn-success
 email: funtime_4drentals@hotmail.com
 description: "Time To Activate The Fun!"
 note: Price listed is for rental only
+icon: bi bi-info-circle-fill
 pic: pic
 
 

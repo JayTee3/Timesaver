@@ -19,17 +19,17 @@ layout: 'base.njk'
                   <h5> Telephone: {{ contact }} </h5>
               </div>
               <div class="d-flex align-items-center">
-                <h3><i class="{{ social_i }} me-3"></i></h3>
-                  <h5><a href="{{ social}}" class="{{ social_c }}">{{ social_n }}</a></h5>
-              </div>
-              <div class="d-flex align-items-center">
                 <h3><i class="bi bi-envelope me-3"></i></h3>
                   <h5>{{ email }}</h5>
               </div>
               <div class="d-flex align-items-center">
-                <h3><i class="bi bi-info-circle-fill me-3"></i></h3>
+                <h3><i class="{{ icon }} me-3"></i></h3>
                   <h5> {{ description }} 
                   </h5>
+              </div>
+              <div class="d-flex align-items-center">
+                <h3><i class="{{ social_i }} me-3"></i></h3>
+                  <h5><a href="{{ social}}" class="{{ social_c }}">{{ social_n }}</a></h5>
               </div>
            </div>
       </div>
@@ -42,7 +42,7 @@ layout: 'base.njk'
       <div class="row g-4">
         <div class="col-md-6 col-lg-3">
           <div class="card d-flex align-items-center bg-light">
-            <img src= "{{ item_1}}"  class="card-img-top {{ pic }}" alt="smart-watch">
+            <img src= "{{ item_1}}"  class="card-img-top {{ img }}" alt="smart-watch">
             <div class="card-body">
               <h5 class="card-title"> {{ item_1_name }}</h5>
               <p class="card-text"> {{ item_1_cost }}</p>
@@ -54,7 +54,7 @@ layout: 'base.njk'
         <!-- second card -->
         <div class="col-md-6 col-lg-3">
           <div class="card d-flex align-items-center bg-light">
-            <img src= "{{ item_2 }}"  class="card-img-top {{ pic }}" alt="smart-watch">
+            <img src= "{{ item_2 }}"  class="card-img-top {{ img }}" alt="smart-watch">
             <div class="card-body">
               <h5 class="card-title"> {{ item_2_name }}</h5>
               <p class="card-text">{{ item_2_cost }}</p>
@@ -66,11 +66,11 @@ layout: 'base.njk'
          <!-- thrid card -->
         <div class="col-md-6 col-lg-3">
           <div class="card d-flex align-items-center bg-light">
-            <img src= "{{ item_3 }}"  class="card-img-top {{ pic }}" alt="smart-watch">
+            <img src= "{{ item_3 }}"  class="card-img-top {{ img }}" alt="smart-watch">
             <div class="card-body">
               <h5 class="card-title"> {{ item_3_name }}</h5>
               <p class="card-text"> {{ item_3_cost }}</p>
-              <small class="card-text"> {{ note }}</small>
+              <small class="card-text"> {{ notice }}</small>
                 <a href="#" data-bs-toggle="modal" data-bs-target="#order" class="btn btn-outline-success"> Order item</a>
             </div>
           </div>
@@ -78,11 +78,11 @@ layout: 'base.njk'
          <!-- fourth -->
         <div class="col-md-6 col-lg-3">
           <div class="card d-flex align-items-center bg-light">
-            <img src= "{{ item_4 }}"  class="card-img-top {{ pic }}" alt="smart-watch">
+            <img src= "{{ item_4 }}"  class="card-img-top {{ img }}" alt="smart-watch">
             <div class="card-body">
               <h5 class="card-title">{{ item_4_name }}</h5>
               <p class="card-text">{{ item_4_cost }}</p>
-              <small class="card-text"> {{ note }}</small>
+              <small class="card-text"> {{ notice }}</small>
                 <a href="#" data-bs-toggle="modal" data-bs-target="#order" class="btn btn-outline-success"> Order item</a>
             </div>
           </div>
@@ -90,7 +90,7 @@ layout: 'base.njk'
          <!-- fiveth -->
         <div class="col-md-6 col-lg-3">
           <div class="card d-flex align-items-center bg-light">
-            <img src= "{{ item_5 }}"  class="card-img-top {{ pic }}" alt="smart-watch">
+            <img src= "{{ item_5 }}"  class="card-img-top {{ img }}" alt="smart-watch">
             <div class="card-body">
               <h5 class="card-title">{{ item_5_name }}</h5>
               <p class="card-text">{{ item_5_cost }}</p>
@@ -102,11 +102,11 @@ layout: 'base.njk'
          <!-- six card -->
         <div class="col-md-6 col-lg-3">
           <div class="card d-flex align-items-center bg-light">
-            <img src= "{{ item_6 }}"  class="card-img-top {{ pic }}" alt="smart-watch">
+            <img src= "{{ item_6 }}"  class="card-img-top {{ img }}" alt="smart-watch">
             <div class="card-body">
-              <h5 class="card-title">{{ item_6_name }}</h5>
+              <h5 class="card-title {{ size }}">{{ item_6_name }}</h5>
               <p class="card-text">{{ item_6_cost}}</p>
-              <small class="card-text"> {{ note }}</small>
+              <small class="card-text"> {{ notice }}</small>
                 <a href="#" data-bs-toggle="modal" data-bs-target="#order" class="btn btn-outline-success">Order item</a>
             </div>
           </div>
@@ -114,9 +114,9 @@ layout: 'base.njk'
          <!-- seven card -->
         <div class="col-md-6 col-lg-3">
           <div class="card d-flex align-items-center bg-light">
-            <img src= "{{ item_7 }}"  class="card-img-top {{ pic }}" alt="smart-watch">
+            <img src= "{{ item_7 }}"  class="card-img-top {{ img }}" alt="smart-watch">
             <div class="card-body">
-              <h5 class="card-title">{{ item_7_name }}</h5>
+              <h5 class="card-title {{ size }}">{{ item_7_name }}</h5>
               <p class="card-text">{{ item_7_cost }}</p>
               <small class="card-text"> {{ note }}</small>
                 <a href="#" data-bs-toggle="modal" data-bs-target="#order" class="btn btn-outline-success "> Order item</a>
@@ -126,11 +126,11 @@ layout: 'base.njk'
          <!-- eight card -->
         <div class="col-md-6 col-lg-3">
           <div class="card d-flex align-items-center bg-light">
-            <img src= "{{ item_8 }}"  class="card-img-top {{ pic }}" alt="smart-watch">
+            <img src= "{{ item_8 }}"  class="card-img-top {{ img }}" alt="smart-watch">
             <div class="card-body">
               <h5 class="card-title">{{ item_8_name }}</h5>
               <p class="card-text">{{ item_8_cost }}</p>
-              <small class="card-text"> {{ note }}</small>
+              <small class="card-text"> {{ notice }}</small>
                 <a href="#" data-bs-toggle="modal" data-bs-target="#order" class="btn btn-outline-success"> Order item</a>
             </div>
           </div>
@@ -181,8 +181,7 @@ layout: 'base.njk'
       </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-          <button type="button" class="btn btn-primary">Submit</button>
+          <input type="submit" value="Submit" class="btn btn-primary"></input>
         </div>
       </div>
  </div>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

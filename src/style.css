@@ -25,9 +25,13 @@ body::before{
     border-color: #FFC0CB !important
 
 }
-.pic {
-    height: 160px;
-    width: 302px;
+.font{
+    font-size: 100%;
+  }
+  
+.pic-item{
+    height: 280px;
+    width: 280px;
   }
 
 .pic-li {
