@@ -12,6 +12,7 @@ social_n: Facebook
 social_c: btn btn-primary
 email: ricara@live.com
 icon: bi bi-info-circle-fill
+msg: Order Now
 description: Sunflower Beauty is a small business based in Nassau, Bahamas
                         specializing in beauty products, costume and Stainless Steel jewlery as well 
                         as accessories. All at affordable price while still giving our customer quality.

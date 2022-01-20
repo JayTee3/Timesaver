@@ -13,6 +13,7 @@ social_c: btn btn-info
 email: Glam.girlz@hotmail.com
 description: "Choose Style And Style Your Life"
 icon: bi bi-info-circle-fill
+msg: Order Now
 
 
 

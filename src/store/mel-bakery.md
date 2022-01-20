@@ -18,6 +18,7 @@ img: pic-item
 note: Items sold by the dozen per order
 notice: Items sold by half dozen per order
 size: font
+msg: Order Now
 
 
 item_1: /assets/mel/WhatsApp1.jpeg

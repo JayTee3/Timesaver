@@ -28,7 +28,9 @@ body::before{
 .font{
     font-size: 100%;
   }
-  
+.lis{
+    list-style-type: none;
+}
 .pic-item{
     height: 280px;
     width: 280px;

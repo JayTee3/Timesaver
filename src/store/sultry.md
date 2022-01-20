@@ -13,6 +13,7 @@ social_c: btn btn-info
 email: Edneka.farq@gmail.com
 description: "Giving You Fashion Statement!"
 icon: bi bi-info-circle-fill
+msg: Order Now
 
 
 item_1: /assets/sultry/sultry-blue.jpg
