@@ -4,7 +4,8 @@ imgAlt: BBO Consultant Agency
 tag:  service
 name: BBO Consultant Agency
 modal_n: bbo-consultant
-hours: 7am - 8pm 
+modal_apt: bbo-consultant-appointment
+hours: 9am - 5pm 
 contact: (242)-817-6466
 social:
 social_i: 
