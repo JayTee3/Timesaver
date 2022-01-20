@@ -222,7 +222,7 @@ layout: 'base.njk'
                             <i class="bi bi-calendar-check"></i>
                           </div>  
                           <class="h3">
-                            <h3 class="card-title mb-3">Appointent</h3>
+                            <h3 class="card-title mb-3">Appointment</h3>
                             <p class="card-text">
                               Set an appointment for any of our 
                               services and begin your process today!   
@@ -244,7 +244,7 @@ layout: 'base.njk'
                           <p class="card-text pb-4"> 
                            Direct Deposit at:
                            Roxianna Deveaux
-                           Account #1665510050232
+                           Account #166 - 5510050232
                            Harrold Road.
                            Any Branch of the BOB     
                           </p>
@@ -263,7 +263,7 @@ layout: 'base.njk'
                         <class="h3">
                           <h3 class="card-title mb-3"> Sun Cash</h3>
                           <p class="card-text">
-                            Please Contact To Confrim. Before Making Payment.
+                            Please Contact To Confirm. Before Making Payment.
                             Telephone: {{ contact }}      
                           </p>
                            <a href="https://suncash.me/Bahamas" class="btn btn-warning">Pay Now</a>
@@ -301,12 +301,13 @@ layout: 'base.njk'
                   </label>
                   <input type="text" class="form-control" name="customer-phone" placeholder="Enter Phone Number" required>
               </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <input type="submit" value="Submit" class="btn btn-primary"></input>
+            </div>
+          </div>  
           </form>
-        </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <input type="submit" value="Submit" class="btn btn-primary"></input>
-          </div>
         </div>
    </div>
   </div>
@@ -328,16 +329,25 @@ layout: 'base.njk'
                   <input type="text" class="form-control" name="full-name" placeholder="Enter Full Name" required>
               </div>
               <div class="mb-3">
+                <label for="services" class="col-form-label">Select Service</label>
+                <select class="form-select" aria-label="Default select example">
+                  <option selected>Open to select a service</option>
+                  <option value="Business Consultation">Business Consultation</option>
+                  <option value="Immigration Services">Immigration Services</option>
+                  <option value="Permits">Permits</option>
+                </select>
+              </div>
+              <div class="mb-3">
                 <label for="first-name" class="col-form-label">
                   Date:
               </label>
-              <input type="date" class="form-control" name="appointment" required>
+              <input type="date" class="form-control" name="appointment"  placeholder="Select A Date" required>
               </div>
               <div class="mb-3">
                 <label for="time" class="col-form-label">
                   Time:
               </label>
-              <input type="time" class="form-control" name="appointment-time" required>
+              <input type="time" class="form-control"  placeholder="Select A Time" name="appointment-time" required>
               </div>
               <div class="mb-3">
                   <label for="phone" class="col-form-label">
@@ -351,14 +361,14 @@ layout: 'base.njk'
                   </label>
                   <input type="text" class="form-control" name="customer-email" placeholder="Enter Email" required>
               </div>
+            </div>
+            <div class="modal-footer">
+              <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+              <input type="submit" value="Submit" class="btn btn-primary"></input>
+            </div>
+          </div>  
           </form>
-        </div>
-          <div class="modal-footer">
-            <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-            <input type="submit" value="Submit" class="btn btn-primary"></input>
           </div>
-        </div>
-   </div>
    </div>
   
   
