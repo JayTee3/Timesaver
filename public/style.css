@@ -36,6 +36,11 @@ body::before{
     width: 280px;
   }
 
+.logo-pic{
+    height: 290px;
+    width: 290px;
+}
+
 .pic-li {
     height: 150px;
     width: 150px;

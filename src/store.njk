@@ -44,6 +44,25 @@ layout: 'base.njk'
     </div>
     {%- endfor -%}
     
+    {%- for beauty in collections.beauty -%}
+     <!-- Start -->
+     <div class="shadow-sm p-3 mb-5 bg-light rounded mt-5">
+        <div class=" d-sm-flex align-items-center justify-content-between">  
+            <article class="media content-section">
+                <img class="pic-li" src="{{ beauty.data.logo }}" alt="{{ imgAlt }}">
+                <div class="media-body">
+                    <div class="article-metadata">
+                            <h2><a class="mr-2" href="{{ beauty.url }}">{{ beauty.data.name }}</a></h2>
+                            <p class="text-muted mb-0"> Telephone Contact: {{ service.data.contact}}</p>
+                            <p class="text-muted mb-0">Store Hours: {{ service.data.hours }}</p>
+                            <p class="text-muted">Email: {{ service.data.email }}</p>
+                    </div>
+                </div>
+            </article>
+       </div>
+    </div>
+    {%- endfor -%}
+    
 </div>
 <div class="fitted lower"></div>
 <!-- end of card  -->
