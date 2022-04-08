@@ -53,6 +53,10 @@ item_7_name: Bakes Saltfish, Mackerel,Tuna
 item_8: /assets/mel/WhatsApp8.jpeg
 item_8_cost: $12.00
 item_8_name: Rock Buns
+
+item_9: /assets/mel/WhatsApp9-hot-cross.jpeg
+item_9_cost: $12.00
+item_9_name: Hot Cross Buns
 ---
 
     
