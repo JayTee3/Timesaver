@@ -17,6 +17,7 @@ pic:
 img: pic-item
 note: Items sold by the dozen per order
 notice: Items sold by half dozen per order
+notice_n: Items sold by dozen per order
 size: font
 msg: Order Now
 
